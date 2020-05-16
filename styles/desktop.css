@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 701px) {
+
+body{
+    padding-top: 40px;
+    font-family: sans-serif;
+    background: #eee;
+  }
+  .title{
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #141c3a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  #demo{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #141c3a;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+  .piano{
+    width: 70%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    background-color: slategray;
+    margin-top: 30px;
+  }
+  .key{
+    width: 12%;
+    height: 300px;
+    display: inline-block;
+    border: solid #141c3a 2px;
+    box-shadow: 2px 5px;
+    background-color: white;
+    color: #141c3a;
+    border-radius: 0 0 5px 5px;
+  }
+  .black-key{
+    width: 95px;
+    height: 220px;
+    display: inline-block;
+    background-color: #141c3a;
+    color: white;
+    position: absolute;
+    margin-left: -50px;
+    padding: 0px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .keynote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 260px;
+    color: #141c3a;
+  }
+  .black-keynote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+}
